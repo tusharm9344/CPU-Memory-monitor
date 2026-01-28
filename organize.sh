@@ -24,3 +24,5 @@ fi
 if [ "$MEMORY_USAGE" -ge "$MEMORY_THRESHOLD" ]; then
     echo "ALERT: Memory usage is high at ${MEMORY_USAGE}MB [$DATE]" >> logfile.log
 fi
+
+echo "Have a nice day $DATE" >> logfile.log
